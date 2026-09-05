@@ -10,14 +10,16 @@
   "author": "Divyam",
   "type": "module",
   "main": "index.js",
-"scripts": {
-  "dev": "nodemon -r dotenv/config src/index.js"
-},
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js"
+  },
   "devDependencies": {
     "nodemon": "^3.1.14",
     "prettier": "^3.9.6"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongodb": "^7.6.0",
